@@ -26,6 +26,7 @@ const Embeded = () => {
       height="120"
       src={mixcloud.dataJson.mixcloud_embed}
       frameBorder="0"
+      sandbox="allow-same-origin"
     ></iframe>
   )
 }
